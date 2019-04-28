@@ -36,3 +36,32 @@ header {
 }
 
 /* maincontent */
+
+.main div {
+  border: 1px solid grey;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto 78px auto;
+}
+
+.main.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+
+}
