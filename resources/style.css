@@ -45,23 +45,41 @@ header {
   display: flex;
   justify-content: flex-start;
   margin: 0 auto 78px auto;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .main.large {
   width: 630px;
-  display: flex;
   flex-direction: column;
 }
 
 .main.medium {
   width: 300px;
-  display: flex;
   flex-direction: column;
 }
 
 .main.small {
   width: 240px;
-  display: flex;
   flex-direction: column;
-
 }
+
+.news {
+  display: flex;
+}
+
+.news.img1 {
+  background-image: url("./images/img-story-main.png");
+  background-size: cover;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.news
